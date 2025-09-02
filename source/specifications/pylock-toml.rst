@@ -526,6 +526,40 @@ See :ref:`pylock-packages-vcs-subdirectory`.
 - Tools MAY support installing from an index if the URL recorded for a specific
   file is no longer valid (e.g. returns a 404 HTTP error code).
 
+.. _pylock-packages-variants-json:
+
+``[packages.variants-json]``
+----------------------------
+
+- **Type**: table
+- **Required?**: no; requires that :ref:`pylock-packages-wheels` is used,
+  mutually-exclusive with :ref:`pylock-packages-vcs`,
+  :ref:`pylock-packages-directory`, and :ref:`pylock-packages-archive`.
+- **Inspiration**: uv_
+- The URL or path to the `variants.json` file.
+- Only used if the project uses :ref:`wheel variants <wheel-variants>`.
+
+.. _pylock-packages-variants-json-url:
+
+``packages.variants-json.url``
+''''''''''''''''''''''
+
+See :ref:`pylock-packages-archive-url`.
+
+.. _pylock-packages-variants-json-path:
+
+``packages.variants-json.path``
+'''''''''''''''''''''''
+
+See :ref:`pylock-packages-archive-path`.
+
+.. _pylock-packages-variants-json-hashes:
+
+``packages.variants-json.hashes``
+'''''''''''''''''''''''''
+
+See :ref:`pylock-packages-archive-hashes`.
+
 
 .. _pylock-packages-sdist:
 
