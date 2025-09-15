@@ -542,21 +542,21 @@ See :ref:`pylock-packages-vcs-subdirectory`.
 .. _pylock-packages-variants-json-url:
 
 ``packages.variants-json.url``
-''''''''''''''''''''''
+''''''''''''''''''''''''''''''
 
 See :ref:`pylock-packages-archive-url`.
 
 .. _pylock-packages-variants-json-path:
 
 ``packages.variants-json.path``
-'''''''''''''''''''''''
+'''''''''''''''''''''''''''''''
 
 See :ref:`pylock-packages-archive-path`.
 
 .. _pylock-packages-variants-json-hashes:
 
 ``packages.variants-json.hashes``
-'''''''''''''''''''''''''
+'''''''''''''''''''''''''''''''''
 
 See :ref:`pylock-packages-archive-hashes`.
 
