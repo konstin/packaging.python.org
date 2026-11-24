@@ -52,7 +52,6 @@ Use ``pip`` to install Pipenv:
     packages. If ``pipenv`` isn't available in your shell after installation,
     you'll need to add the :py:data:`user base <python:site.USER_BASE>`'s
     binary directory to your ``PATH``.
-    See :ref:`Installing to the User Site` for more information.
 
 .. _npm: https://www.npmjs.com/
 .. _bundler: https://bundler.io/
